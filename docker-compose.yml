@@ -4,7 +4,7 @@ services:
     container_name: openbullet2
     image: openbullet/openbullet2
     volumes:
-      - ./UserData:/app/UserData
+      - ./UserData/Environment.ini:/app/UserData/Environment.ini
     ports:
       - "5000:5000"
     restart: always
