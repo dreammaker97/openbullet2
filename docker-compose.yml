@@ -1,7 +1,7 @@
 version: "3"
 services:
-  openbullet:
-    container_name: openbullet
+  openbullet2:
+    container_name: openbullet2
     image: openbullet/openbullet2
     volumes:
       - ./UserData:/app/UserData
