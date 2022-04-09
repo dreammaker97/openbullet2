@@ -1,0 +1,10 @@
+version: "3"
+services:
+  openbullet:
+    container_name: openbullet
+    image: openbullet/openbullet2
+    volumes:
+      - ./UserData:/app/UserData
+    ports:
+      - "5000:5000"
+    restart: always
