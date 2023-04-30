@@ -6,5 +6,5 @@ services:
     volumes:
       - ./UserData/Environment.ini:/app/UserData/Environment.ini
     ports:
-      - "5000:5000"
+      - "8800:5000"
     restart: always
